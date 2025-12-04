@@ -1,0 +1,16 @@
+{
+  "architecture": "MobileNetV2",
+  "num_classes": 2,
+  "label_map": {
+    "0": "Benign",
+    "1": "Malignant"
+  },
+  "test_accuracy": 1.0,
+  "test_loss": 0.02642664685845375,
+  "epochs_trained": 1,
+  "batch_size": 8,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "model_path": "server\\models\\derma_mobilenetv2_20251203_222127.h5",
+  "training_date": "2025-12-03T22:21:28.019877"
+}

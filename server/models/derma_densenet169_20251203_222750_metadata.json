@@ -1,0 +1,16 @@
+{
+  "architecture": "DenseNet169",
+  "num_classes": 2,
+  "label_map": {
+    "0": "Benign",
+    "1": "Malignant"
+  },
+  "test_accuracy": 1.0,
+  "test_loss": 0.000876435253303498,
+  "epochs_trained": 30,
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "model_path": "server\\models\\derma_densenet169_20251203_222750.h5",
+  "training_date": "2025-12-03T22:27:51.890560"
+}

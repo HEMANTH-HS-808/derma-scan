@@ -1,0 +1,16 @@
+{
+  "architecture": "DenseNet169",
+  "num_classes": 2,
+  "label_map": {
+    "0": "benign",
+    "1": "melanoma"
+  },
+  "test_accuracy": 0.6666666865348816,
+  "test_loss": 0.8931891918182373,
+  "epochs_trained": 2,
+  "batch_size": 4,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "model_path": "server\\models\\derma_densenet169_20251204_110754.h5",
+  "training_date": "2025-12-04T11:07:57.947636"
+}
